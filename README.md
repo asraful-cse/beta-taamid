@@ -1,7 +1,6 @@
 # Beta taamid project
 *Live link: [https://beta-taamid.netlify.app/](https://beta-taamid.netlify.app/) to view it in the browser.
-
-
+* login system: test@g.com pass:1234
 <!-- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
