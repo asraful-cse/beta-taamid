@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400&display=swap');
+
+.myPoView1 {
+	width: 100%;
+	height: 108px;
+	background: #fcfcfd;
+	/* Border */
+
+	border: 1px solid #e6e8ec;
+	box-sizing: border-box;
+	border-radius: 20px;
+	margin: 40px auto;
+	display: flex;
+	justify-content: space-between;
+}
+.customSearchTitle {
+	font-family: poppins !important;
+	font-style: normal;
+	font-size: 14px;
+	color: #23262f;
+	margin: 18px;
+	line-height: 32px;
+}
+.customMyPoTitle2 {
+	font-family: DM Sans !important;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 48px;
+	/* identical to box height, or 120% */
+	letter-spacing: -0.01em;
+	color: #2b3990;
+	margin: 30px;
+}
+.customList {
+	width: 40px;
+	height: 40px;
+	background: #009444;
+	border-radius: 5px;
+	margin: 15px;
+	cursor: pointer;
+}
+.customList1 {
+	width: 40px;
+	height: 40px;
+	border-radius: 5px;
+	margin: 15px;
+	cursor: pointer;
+}
+
+.customGrid {
+	width: 40px;
+	height: 40px;
+	border-radius: 5px;
+	margin: 15px;
+	cursor: pointer;
+}
+
+.addItemTitle {
+	font-family: Poppins !important;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 36px;
+	color: #2b3990;
+	width: 197px;
+	height: 36px;
+	margin-left: -98px !important;
+	cursor: pointer;
+}
+.resetSubmitBtn {
+	text-align: center;
+}
+
+.filteringButton {
+	background: #fcfcfd;
+	/* Stock */
+
+	border: 1px solid #e6e8ec;
+	box-sizing: border-box;
+	border-radius: 10px;
+	width: 200px;
+	height: 48px;
+	margin: 30px;
+	text-indent: 10px;
+	font-family: Poppins !important;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	/* identical to box height */
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #009444;
+}
+.clearAll {
+	color: #ea4848;
+	margin: 18px;
+}
+.clearAll img {
+	height: 16px;
+	width: 16px;
+	object-fit: contain;
+}
+
+.searchInput {
+	background: #ffffff;
+	/* Stock */
+	border: 1px solid #e6e8ec;
+	box-sizing: border-box;
+	border-radius: 10px;
+	width: 378px;
+	height: 40px;
+}
+
+input#searchInput {
+	background-image: url('../../images/icons/Shape.png');
+	background-size: 20px 20px;
+	object-fit: contain;
+	background-repeat: no-repeat;
+	padding-left: 45px;
+	border: 1.5px solid #777e91;
+	background-position: 20px;
+	z-index: 9999;
+}
+.searchNav {
+	border-bottom: 1px solid #e6e8ec;
+}
+
+/* PO Sidebar */
+.status {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #e6e8ec;
+}
+.allCity {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.category_ul {
+	padding-bottom: 30px;
+	border-bottom: 1px solid #e6e8ec;
+}
+.filter {
+	padding-top: 40px;
+	font-size: 16px;
+	line-height: 32px;
+	font-family: Poppins;
+	font-weight: 600;
+}
+.category_title {
+	font-family: Poppins;
+	font-size: 15px;
+	line-height: 32px;
+	font-weight: 400;
+}
+.category_ul li {
+	font-family: Poppins;
+	font-size: 14px;
+	line-height: 32px;
+	font-weight: 400;
+	margin-top: 10px;
+}
+
+.custom_checkbox {
+	font-family: Poppins !important;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 21px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+
+.paginationButton {
+	display: flex;
+	justify-content: center;
+	width: 80%;
+	height: 10px !important;
+	list-style: none;
+	margin-top: 60px;
+}
+.paginationButton a {
+	padding: 7px 12px;
+	margin-left: 30px;
+	border: 1px solid #e6e8ec;
+	border-radius: 50%;
+	cursor: pointer;
+	align-items: center;
+	font-size: 12px !important;
+	line-height: 20px;
+	color: #777e90 !important;
+	font-weight: 600;
+}
+
+.paginationButton a:hover {
+	padding: 7px 12px;
+	border-radius: 50%;
+	cursor: pointer;
+	align-items: center;
+	font-size: 12px !important;
+	line-height: 20px;
+	color: white !important;
+	font-weight: 600;
+	background-color: #2b3990;
+	border: 1px solid #2b3990;
+}
+.paginationActive a {
+	line-height: 20px;
+	color: white !important;
+	font-weight: 600;
+	background-color: #2b3990;
+	border: 1px solid #2b3990;
+}
+
+.poSearch_title {
+	font-size: 15px;
+	line-height: 24px;
+	margin: 30px;
+	font-weight: 600;
+}
+
+.previousBtn {
+	display: none;
+}
+.nextBtn {
+	display: none;
+}
+@media only screen and (max-width: 600px) {
+	.filteringButton {
+		width: 150px;
+		font-size: 14px;
+	}
+	.poSearchBoxContainer {
+		/* position: absolute !important; */
+		top: 90px !important;
+		left: 75px !important;
+	}
+	.poSearchBoxContainer .searchInput {
+		width: auto !important;
+	}
+	.searchNav {
+		border: none !important;
+	}
+}

@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400&display=swap");
+
+.pendingItemBoxCard {
+  margin-bottom: 100px !important;
+}
+.paddingForDisclaimer {
+  padding: 0 !important;
+}
+.marginForDisclaimer {
+  margin: 0 !important;
+}
+
+.newPoTitle {
+  margin-left: 5px !important;
+}
+
+.disclaimerTitle {
+  font-family: DM Sans !important;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -0.01em;
+  color: #2b3990 !important;
+  text-align: left;
+  padding: 30px 18px 10px 0px;
+  margin: 29px 0px 8px 0px !important;
+}
+
+.InfoDisclamer {
+    padding: 0 30px;
+    font-family: Poppins !important;
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 24px;
+    line-height: 36px;
+    color: #23262f;
+    margin: 6px 0px 20px 0px !important;
+}
+
+.singleItemSubTitle2 {
+  font-family: Poppins !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #828b9e;
+  margin-left: 20px;
+  margin-right: 80px;
+}
+@media only screen and (max-width: 768px) {
+  .disclaimerTitle {
+    justify-content: center;
+    text-align: center;
+}
+}
+@media only screen and (max-width: 458px) {
+  .InfoDisclamer {
+    line-height: 23px !important;
+    font-size: 19px !important;
+  }
+  .disclaimerTitle {
+    justify-content: center;
+    text-align: center;
+}
+}

@@ -1,0 +1,373 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400&display=swap");
+
+.companyInfo {
+  font-family: Poppins !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+  padding: 30px 30px 0 30px;
+}
+.companyInfoWrapper {
+  width: 100%;
+  height: auto;
+  background: #f9f9f9;
+  border-radius: 20px;
+  justify-content: center;
+  align-content: center;
+  border: 1px solid #e6e8ec;
+  margin: 40px auto 30px auto;
+}
+/* .customLoginBox{} */
+.companyInfoInput {
+  background: #ffffff;
+  border: 1px solid #e6e8ec;
+  box-sizing: border-box;
+  border-radius: 12px;
+  width: 906px;
+  height: 48px;
+  margin: 10px 60px 20px 30px;
+}
+
+.compInfoD1P1 {
+  width: 443px !important;
+  margin: 10px 20px 10px 30px !important;
+}
+
+.compInfoD2P2 {
+  width: 443px !important;
+  margin: 10px 60px 10px 0 !important;
+}
+.compInfoTextBoxS {
+  width: 907px !important;
+  height: 90px;
+  margin: 10px 30px 20px 30px !important;
+}
+.comInfoPadding {
+  padding-left: 30px !important;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #23262f;
+  margin-bottom: 0px !important;
+}
+.emailLabelForPF {
+  font-family: Poppins !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #23262f;
+  margin: 0;
+  margin-top: 5px;
+  /* margin-left: 62px; */
+}
+
+/* ------------------------------------------------ */
+.textArea {
+  background: #ffffff;
+  border: 1px solid #e6e8ec;
+  box-sizing: border-box;
+  border-radius: 12px;
+  /* width: 787px !important; */
+  height: 160px;
+  margin: 10px 60px 20px 60px;
+}
+
+@media only screen and (min-width: 1400px) {
+  .companyInfoWrapper {
+    margin-left: -38px !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .poDivideBox1 {
+    width: 300px !important;
+  }
+  .newPaymentInput {
+    width: 300px;
+  }
+  .poDividedBox2 {
+    margin: 10px 60px 10px 30px;
+  }
+  .newPoTextArea {
+    width: 300px;
+  }
+  .divideBox2label {
+    margin-left: 35px;
+  }
+}
+
+/*congrats wrapper*/
+
+@media only screen and (max-width: 600px) {
+  .loginForm {
+    width: 100% !important;
+    margin: 10px auto;
+  }
+
+  .loginForm {
+    flex-direction: column;
+  }
+
+  .dividedBox1 {
+    width: 100% !important;
+    margin: 10px auto;
+  }
+  .divideBox2label {
+    margin-left: 40px;
+  }
+  .divideBox2label {
+    margin-left: 40px;
+  }
+
+ 
+  .textArea {
+    width: 100% !important;
+    margin: 10px !important;
+    margin-left: 34px !important;
+}
+}
+
+/*history container*/
+@media only screen and (max-width: 601px) {
+  .companyInfoWrapper .loginForm .compInfoD1P1 {
+    width: 460px !important;
+    margin: 10px 60px 10px 35px !important;
+  }
+  .companyInfoWrapper .loginForm .compInfoD2P2 {
+    width: 460px !important;
+    margin: 10px 60px 10px 35px !important;
+  }
+}
+
+@media only screen and (max-width: 549px) {
+  .companyInfoWrapper .loginForm .compInfoD1P1 {
+    width: 440px !important;
+  }
+  .companyInfoWrapper .loginForm .compInfoD2P2 {
+    width: 440px !important;
+  }
+}
+
+@media only screen and (max-width: 514px) {
+  .companyInfoWrapper .loginForm .compInfoD1P1 {
+    width: 365px !important;
+  }
+  .companyInfoWrapper .loginForm .compInfoD2P2 {
+    width: 365px !important;
+  }
+}
+@media only screen and (max-width: 458px) {
+  .companyInfoWrapper .loginForm .compInfoD1P1 {
+    width: 350px !important;
+  }
+  .companyInfoWrapper .loginForm .compInfoD2P2 {
+    width: 350px !important;
+  }
+}
+@media only screen and (max-width: 427px) {
+  .companyInfoWrapper .loginForm .compInfoD1P1 {
+    width: 317px !important;
+  }
+  .companyInfoWrapper .loginForm .compInfoD2P2 {
+    width: 317px !important;
+  }
+}
+@media only screen and (max-width: 395px) {
+  .companyInfoWrapper .loginForm .compInfoD1P1 {
+    width: 307px !important;
+  }
+  .companyInfoWrapper .loginForm .compInfoD2P2 {
+    width: 307px !important;
+  }
+}
+
+/* ------------------------------------------------ */
+@media only screen and (max-width: 1400px) {
+  .companyInfoInput {
+    width: 770px;
+  }
+  .compInfoTextBoxS {
+    width: 770px !important;
+  }
+  .compInfoD1P1 {
+    width: 376px !important;
+  }
+  .compInfoD2P2 {
+    width: 376px !important;
+  }
+  .textarea {
+    width: 770px !important;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .companyInfoInput {
+    width: 642px;
+  }
+  .compInfoTextBoxS {
+    width: 642px !important;
+  }
+  .compInfoD1P1 {
+    width: 310px !important;
+  }
+  .compInfoD2P2 {
+    width: 310px !important;
+  }
+  .textarea {
+    width: 752px !important;
+  }
+}
+
+@media only screen and (max-width: 993px) {
+  .companyInfoInput {
+    width: 464px !important;
+  }
+  .compInfoTextBoxS {
+    width: 464px !important;
+  }
+  .compInfoD1P1 {
+    width: 222px !important;
+  }
+  .compInfoD2P2 {
+    width: 222px !important;
+  }
+  .textarea {
+    width: 464px !important;
+  }
+}
+
+@media only screen and (max-width: 601px) {
+  .companyInfoInput {
+    width: 460px !important;
+  }
+  .compInfoTextBoxS {
+    width: 460px !important;
+  }
+  .UpdateBtn {
+    width: 123px;
+    height: 36px;
+    border-radius: 18px;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    justify-items: center !important;
+  }
+}
+@media only screen and (max-width: 549px) {
+  .companyInfoInput {
+    width: 440px !important;
+  }
+  .compInfoTextBoxS {
+    width: 440px !important;
+  }
+}
+@media only screen and (max-width: 514px) {
+  .companyInfoInput {
+    width: 365px !important;
+  }
+  .compInfoTextBoxS {
+    width: 365px !important;
+  }
+}
+@media only screen and (max-width: 458px) {
+  .companyInfoInput {
+    width: 350px !important;
+  }
+  .compInfoTextBoxS {
+    width: 350px !important;
+  }
+}
+@media only screen and (max-width: 427px) {
+  .compInfoTextBoxS {
+    width: 320px !important;
+  }
+  .companyInfoInput {
+    width: 325px !important;
+  }
+}
+@media only screen and (max-width: 395px) {
+  .companyInfoInput {
+    width: 298px !important;
+  }
+  .compInfoTextBoxS {
+    width: 313px !important;
+  }
+}
+
+@media only screen and (max-width: 392px) {
+  .comInfoPadding {
+    padding-left: 0 !important;
+  }
+  .companyInfoInput {
+    margin: 0px !important;
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .box2ComInfo {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .compInfoD1P1 {
+    width: 440px !important;
+    margin-left: 38px !important;
+  }
+  .divideBox2label {
+    margin-left: 38px !important;
+  }
+}
+@media only screen and (max-width: 514px) {
+  .compInfoD1P1 {
+    width: 365px !important;
+  }
+}
+@media only screen and (max-width: 458px) {
+  .compInfoD1P1 {
+    width: 350px !important;
+  }
+}
+@media only screen and (max-width: 427px) {
+  .compInfoD1P1 {
+    width: 325px !important;
+  }
+}
+@media only screen and (max-width: 395px) {
+  .compInfoD1P1 {
+    width: 298px !important;
+  }
+}
+@media only screen and (max-width: 392px) {
+  .compInfoD1P1 {
+    width: 100% !important;
+    margin: 0px !important;
+  }
+  .divideBox2label {
+    margin: 0px !important;
+  }
+  .textArea {
+    width: 100% !important;
+    margin: 0px !important;
+  }
+}
+
+@media only screen and (max-width: 551) {
+  .comInfoPadding2 {
+    padding-left: 0px !important;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .manage_profile_btn {
+    margin-right: 38px;
+  }
+}

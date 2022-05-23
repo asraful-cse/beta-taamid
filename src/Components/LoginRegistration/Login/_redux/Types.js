@@ -1,0 +1,3 @@
+export const GET_USER="GET_USER";
+export const SET_LOGIN_FALSE = "SET_LOGIN_FALSE"
+export const AFTER_LOGIN_DATA = "AFTER_LOGIN_DATA"

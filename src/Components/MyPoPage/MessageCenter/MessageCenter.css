@@ -1,0 +1,16 @@
+.customMessageCenter{
+    margin-top: 40px;
+    text-align: center;
+}
+
+@media only screen and (min-width: 1400px) {
+    .customMessageCenter {
+      margin-left: -42px !important;
+    }
+    }
+
+@media only screen and (max-width: 600px) {
+    .dPdbIW {
+        width: 100%;
+    }
+}

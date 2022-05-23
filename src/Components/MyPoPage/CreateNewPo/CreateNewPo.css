@@ -1,0 +1,427 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400&display=swap");
+
+
+
+
+.newPoWrapper {
+  width: 847px;
+  height: auto;
+  /* background: #f9f9f9; */
+  border-radius: 20px;
+  justify-content: center;
+  align-content: center;
+  margin: 60px auto 8px auto;
+}
+
+.newPoTitle {
+  font-family: DM Sans !important;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -0.01em;
+  color: #2b3990 !important;
+  text-align: left;
+  padding: 30px 18px 10px 0px;
+  margin-left: 30px !important;
+}
+
+.boxBackground {
+  background: #fcfcfd;
+  border: 1px solid #e6e8ec;
+  border-radius: 20px;
+  height: 1047px !important;
+  margin-top: -19px !important;
+  width: 847px !important;
+}
+.newPoForm {
+  max-width: 787px;
+}
+.infoTitle {
+  padding: 0 30px;
+  font-family: Poppins !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 24px;
+  line-height: 36px;
+  color: #23262f;
+  margin: 30px 0px 30px 0px !important;
+}
+/* ----------------------------- new css class----------------------- */
+.divideBox2label {
+  font-family: Poppins !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #23262f;
+  margin: 0px;
+  padding: 0px !important;
+  margin-top: 5px;
+}
+
+/* --------------------------------------------------------------------- */
+.poDivideBox1 {
+  width: 381px;
+  height: 48px;
+  background: #ffffff;
+  border: 1px solid #e6e8ec;
+  box-sizing: border-box;
+  border-radius: 12px;
+  margin: 10px 20px 10px 30px;
+}
+.poDividedBox2 {
+  margin: 10px 6px 30px 0px;
+}
+.poDividedBox3 {
+  border: 2px dashed #e0e0e0 !important;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+.attachDivideBox1 {
+  width: 200px;
+  height: 48px;
+  background: #ffffff;
+  /* Stock */
+
+  border: 1px solid #e6e8ec;
+  box-sizing: border-box;
+  border-radius: 12px;
+  margin: 10px 20px 10px 30px;
+}
+
+.attachDivideBox2 {
+  margin: 10px 60px 10px 0;
+}
+.poFormBox1 {
+  font-family: Poppins !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: #23262f;
+  position: relative;
+  margin-left: 30px !important;
+  margin-bottom: 0px !important;
+}
+
+input#date {
+  text-indent: 10px;
+  /* Extra Styling */
+  border: 1.5px solid #777e91;
+  background-position: left;
+  background-position-x: 20px;
+}
+input#gen {
+  text-indent: 10px;
+  border: 1.5px solid #777e91;
+  background-position: left;
+  background-position-x: 20px;
+  color: #777e91;
+}
+input#genTextArea {
+  text-indent: 10px;
+  /* Extra Styling */
+  border: 1.5px solid #777e91;
+  background-position: left;
+  text-align: start;
+  text-overflow: ellipsis;
+}
+
+.newPoInput {
+  background: #ffffff;
+  /* Stock */
+
+  border: 1px solid #e6e8ec !important;
+  box-sizing: border-box;
+  border-radius: 12px;
+  width: 787px;
+  height: 48px;
+  margin: 10px 30px 20px 30px;
+}
+.newPoTextArea {
+  background: #ffffff;
+  /* Stock */
+
+  border: 1px solid #e6e8ec !important;
+  box-sizing: border-box;
+  border-radius: 12px;
+  width: 787px;
+  height: 90px;
+  margin: 10px 30px 20px 30px;
+}
+
+/*file css*/
+
+.customFileInput::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.customFileInput::before {
+  content: "emo";
+  display: inline-block;
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  -webkit-user-select: none;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 10pt;
+}
+
+.newOptionInput {
+  background: #ffffff;
+  border: 1px solid #e6e8ec !important;
+  box-sizing: border-box;
+  border-radius: 12px;
+  width: 787px;
+  height: 48px;
+  margin: 10px 2px 30px 30px !important;
+  text-indent: 10px;
+  color: #777e91;
+}
+.newPaymentInput {
+  background: #ffffff;
+  border: 1px solid #e6e8ec !important;
+  box-sizing: border-box;
+  border-radius: 12px;
+  width: 385px;
+  height: 48px;
+  margin: 10px 21px 30px 30px;
+  text-indent: 10px;
+  color: #777e91;
+}
+
+input#startDate {
+  padding-left: 20px;
+  border: 1.5px solid #777e91;
+  background-position: 20px;
+  color: #777e91;
+}
+input#endDate {
+  padding-left: 20px;
+  border: 1.5px solid #777e91;
+  background-position: 20px;
+  color: #777e91;
+}
+
+.addItmTitle {
+  font-family: Poppins !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #2b3990;
+  width: 197px;
+  height: 36px;
+  cursor: pointer;
+}
+.imageLoaderBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 13px !important;
+  padding-left: 15px !important;
+  margin-top: 10px !important;
+}
+.resetBtn {
+  text-align: -webkit-right;
+  margin: -18px -41px 0px 0px !important;
+}
+.backBtn {
+  width: 160px;
+  height: 48px;
+  background: #f9f9f9;
+  border-radius: 24px;
+  margin: -25px;
+  justify-content: center;
+  color: #009444;
+  border: 1px solid #009444;
+}
+.completeBtn {
+  width: 160px;
+  height: 48px;
+  text-align: center;
+  background: #009444;
+  border-radius: 24px;
+  color: #fff;
+  border: none;
+  margin: 40px 0 20px 40px;
+}
+
+
+.invalid{
+  border: 1px solid red !important;
+  color: red!important;
+}
+
+.invalid:focus{
+  outline: none !important;
+  border:1px solid red;
+}
+
+/*media query*/
+@media only screen and (min-width: 1400px) {
+  .boxBackground {
+    margin-left: -98px !important;
+  }
+  .addItmTitle {
+    margin-left: -98px !important;
+  }
+  .resetBtn {
+    text-align: -webkit-right;
+    margin: -18px 58px 0px 0px !important;
+  }
+  .poDivideBox1 {
+    width: 383px;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .newPaymentInput {
+    width: 400px;
+  }
+  .poDivideBox1 {
+    width: 360px;
+}
+}
+
+@media only screen and (max-width: 1200px) {
+  .newPaymentInput {
+    width: 300px;
+  }
+  .poDivideBox1 {
+    width: 300px;
+  }
+  .newOptionInput {
+    width: 621px;
+  }
+  .newPoInput {
+    width: 621px;
+  }
+  .newPoTextArea {
+    width: 621px;
+  }
+  .imageLoaderBox {
+    display: block !important;
+  }
+  .boxBackground {
+    height: 1160px !important;
+    width: 682px !important;
+  }
+  .resetBtn {
+    text-align: -webkit-right;
+    margin: -18px 125px 0px 0px !important;
+  }
+}
+
+@media only screen and (max-width: 993px) {
+  .poDivideBox1 {
+    width: 298px !important;
+  }
+  .newOptionInput {
+    width: 439px;
+  }
+  .newPoInput {
+    width: 439px;
+  }
+  .newPoTextArea {
+    width: 439px;
+  }
+  .fileArea {
+    width: 469px !important;
+  }
+
+  .resetBtn {
+    text-align: justify;
+    margin: 0px 0px 0px 25px !important;
+  }
+  .addItmTitle {
+    font-size: 23px;
+    margin: 0px;
+  }
+  .backBtn {
+    width: 122px;
+    height: 34px;
+  }
+  .completeBtn {
+    width: 122px;
+    height: 34px;
+  }
+  .boxBackground {
+    width: 500px !important;
+}
+}
+@media only screen and (max-width: 992px) {
+  .poDivideBox1 {
+    width: 209px !important;
+  }
+}
+
+@media only screen and (max-width: 601px) {
+  .newPoWrapper .newOptionInput {
+    width: 438px !important;
+  }
+  .boxBackground {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 527px) {
+  .newPoWrapper .newOptionInput {
+    width: 390px !important;
+  }
+  .boxBackground {
+    width: 100% !important;
+  }
+  .newPoInput {
+    width: 390px;
+  }
+  .newPoTextArea {
+    width: 390px;
+  }
+  .poDivideBox1 {
+    width: 184px !important;
+  }
+  .fileArea {
+    width: 420px !important;
+  }
+}
+@media only screen and (max-width: 458px) {
+  .newPoTitle {
+    font-size: 30px;
+  }
+  .infoTitle {
+    line-height: 10px;
+    font-size: 24px;
+  }
+  .newPoWrapper .newOptionInput {
+    width: 275px !important;
+  }
+  .boxBackground {
+    width: 100% !important;
+  }
+  .newPoInput {
+    width: 275px;
+  }
+  .newPoTextArea {
+    width: 275px;
+  }
+  .poDivideBox1 {
+    width: 127px !important;
+  }
+  .fileArea {
+    width: 305px !important;
+  }
+  input#startDate {
+    padding-left: 7px;
+  }
+  input#endDate {
+    padding-left: 7px;
+  }
+  input#gen {
+    padding-left: 7px;
+  }
+}

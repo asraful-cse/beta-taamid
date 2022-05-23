@@ -1,0 +1,9 @@
+export  const GET_STAMP = 'GET_STAMP'
+export const IS_PAGE_LOAD = "IS_PAGE_LOAD";
+export const IS_LOADING = "IS_LOADING";
+// export  const GET_FEES_LIST = 'GET_FEES_LIST'
+// export const POST_PAYMENT = "POST_PAYMENT";
+export const GET_PAYMENT_VERIFICATION = "GET_PAYMENT_VERIFICATION";
+export const GET_PO_LIST = "GET_PO_LIST";
+export const GET_PO_ITEM_LIST = "GET_PO_ITEM_LIST";
+export const CHANGE_INPUT_STAMP = "CHANGE_INPUT_STAMP";

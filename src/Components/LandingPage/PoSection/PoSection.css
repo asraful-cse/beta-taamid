@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400&display=swap");
+
+.po-container {
+  background: #fcfcfd;
+}
+.recentPo {
+  font-family: DM Sans !important;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -0.01em;
+  color: #23262f;
+  margin: 80px 25px 40px 10px;
+}
+.viewAll {
+  font-family: Poppins !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  text-align: right;
+
+  color: #009444;
+  margin: 25px;
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 2000px) {
+  .main_row {
+    --bs-gutter-x: -7.5rem !important;
+  }
+}

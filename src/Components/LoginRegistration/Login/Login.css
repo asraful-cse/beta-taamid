@@ -1,0 +1,237 @@
+/*custom*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins&display=swap');
+
+.wrapper{
+    width: 700px;
+    height: auto;
+    background: #F9F9F9;
+    border-radius: 20px;
+    justify-content: center;
+    align-content: center;
+    margin: 60px auto 100px auto;
+}
+.formFooter{
+    padding-bottom: 20px;
+    display: inline-flex!important;
+}
+.loginTitle {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.02em;
+    color: #2B3990!important;
+    justify-content: center;
+    text-align: center;
+    padding: 60px 0 40px 0;
+}
+.loginInput{
+    /* background: #FFFFFF ;
+    border: 1px solid #E6E8EC; */
+    box-sizing: border-box;
+    border-radius: 12px;
+    width: 580px;
+    height: 48px;
+    margin: 10px 60px 20px 60px;
+        
+}
+.passInput{
+    width: 580px;
+    height: 48px;
+    /* background: #FFFFFF;
+    border: 1px solid #E6E8EC; */
+    box-sizing: border-box;
+    border-radius: 12px;
+    margin: 10px 60px 20px 60px;
+}
+
+
+
+.userLRInput{
+    background: #FFFFFF !important;
+    border: 1px solid #E6E8EC !important;
+
+}
+
+.userLoginInput {
+    width: 580px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #777E91;
+    padding: 15px 20px 15px 20px;
+    border: 1px solid #E6E8EC;
+    background: white;
+    box-sizing: border-box;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+}
+
+
+
+.userLoginField{
+    width: 100%;
+    background: transparent;
+    outline: none;
+    border: 0;
+  }
+
+  .loginIcon {
+    width: 16.67px;
+    height: 16.67px;
+    
+  }
+
+.invalid{
+    border: 1px solid red !important;
+    color: red!important;
+}
+.invalid:focus{
+    outline: none !important;
+    border:1px solid red;
+}
+
+.loginButton {
+  width: 160px;
+  height: 48px;
+  background: #009444;
+  border-radius: 24px;
+  margin: 20px auto!important;
+  display: flex;
+  justify-content: center;
+  color: white;
+  border: none;
+}
+.forgetSpan{
+    font-family: Poppins sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+
+    text-align: right;
+    text-decoration-line: underline;
+    color: #777E91;
+    position: relative;
+    left: 100px;
+}
+
+.forgotPass{
+    display: flex;
+    justify-content: center;
+    font-family: Poppins sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* black */
+
+    color: #23262F;
+    text-decoration: none;
+    pointer-events: none;
+    padding-bottom: 20px;
+
+}
+.registerText{
+    color:  #009444;
+    margin-left: 2px!important;
+    font-weight: bold;
+    text-decoration: none;
+}
+.registerText:hover{
+    color:  #009444;
+    text-decoration: none;
+}
+
+
+
+
+/* input#login {
+   
+    background-image: url("../../../images/registration/Email.png");
+    background-size: 20px 20px;
+    object-fit: contain;
+    background-repeat: no-repeat;
+  
+    padding-left: 45px;
+  
+    border: 1.5px solid #777e91;
+    background-position: 20px;
+}
+
+
+input#password {
+    background-image: url('https://i.ibb.co/5rCVbtp/lock.png');
+    background-size:16px 14px;
+    background-repeat: no-repeat;
+    
+    border: 1.5px solid #777E91;
+    text-indent: 25px;
+    background-position: left;
+    background-position-x: 21px;
+} */
+
+
+.forgetTitle{
+    justify-content: space-between;
+}
+
+.input_ml{
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+
+.loginForm ::placeholder {
+    padding: 20px 0px!important;
+}
+
+.loginForm{
+    width: 580px;
+    
+}
+
+.input_Label{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #23262F;
+}
+.forget_Label{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #777E91 !important;
+
+}
+
+@media only screen and (max-width:668px) {
+    .wrapper{
+        width: auto;
+    }
+     .userLoginInput{
+        width: auto;
+        
+    }
+    .loginForm{
+        width: auto;
+        padding: 20px;
+        
+    }
+    
+}
+

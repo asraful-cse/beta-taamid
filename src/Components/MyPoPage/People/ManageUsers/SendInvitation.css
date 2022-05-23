@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400&display=swap");
+
+.sendInviteCard{
+    height: 306px!important;
+}
+.peopleTitle{
+    font-family: Poppins !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+    color: #2B3990;
+    /* identical to box height */
+    padding: 30px 30px 0 30px;
+}
+.inviteCustomMargin{
+  margin:10px 30px 20px 10px;
+}
+
+.sendInviteBox2 {
+    font-family: Poppins !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #23262F;
+    margin-left: 30px !important;
+}
+.hiddenUserTypes{
+    visibility: hidden;
+}
+.sendBtn {
+    width: 160px;
+    height: 48px;
+    text-align: center;
+    background: #009444;
+    border-radius: 24px;
+    color: white;
+    border: none;
+    margin: 0 21px!important;
+
+}
+.invitationForm{
+    width: 100%;
+}
+.sendRightContainer{
+    text-align: right;
+}
+
+@media only screen and (max-width: 1162px) {
+    .sendBtn{
+        margin: 0 17px!important;
+    }
+}
+@media only screen and (max-width: 601px) {
+    .sendBtn{
+        margin-bottom: -25px !important;
+    }
+}
+
+.invitation_heading{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #2B3990;
+
+}
+.invitaion_lebel{
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #23262F;
+
+
+}
+.invitaion_field{
+    display: flex;
+    background: #FFFFFF;
+    border: 1px solid #E6E8EC;
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding: 9px 10px;
+}
+
+.invitaion_input{
+    width: 100%;
+    outline: none;
+    border: none;
+    margin-left: 5px;
+   
+}
+
+.invitation_submit{
+    color:white;
+    padding: 8px 35px;
+    background: #009444;
+    border-radius: 24px;
+}

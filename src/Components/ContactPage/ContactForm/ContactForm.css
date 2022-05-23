@@ -1,0 +1,714 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400&display=swap');
+.formTitle {
+	padding: 0 30px;
+	font-family: Poppins !important;
+	font-style: normal !important;
+	font-weight: 500 !important;
+	font-size: 16px !important;
+	line-height: 24px !important;
+	color: #23262f !important;
+}
+.contactEmailMargin {
+	margin-top: 30px;
+}
+.contactWrapper {
+	width: 730px;
+	height: 557px;
+	margin-top: 13px;
+}
+.newPoTitle {
+	font-family: DM sans !important;
+	margin-left: 13px !important;
+	margin-left: 35px !important;
+}
+.contactInput {
+	width: 670px;
+}
+.contactText {
+	width: 670px;
+	height: 90px;
+	margin: 10px 30px 20px 30px;
+}
+.BtnRight {
+	text-align: right;
+	margin-right: 30px;
+}
+
+.textArea {
+	background: #ffffff;
+	border: 1px solid #e6e8ec;
+	box-sizing: border-box;
+	border-radius: 12px;
+	/* width: 787px !important; */
+	height: 160px;
+	margin: 10px 60px 20px 60px;
+}
+
+/*Navbar*/
+@media only screen and (max-width: 1024px) {
+	.newPoTitle {
+		font-family: DM sans !important;
+		margin-left: 41px !important;
+	}
+	.addressWrapper {
+		width: 362px !important;
+		margin-left: 25px;
+	}
+	.contactWrapper {
+		width: 540px !important;
+		height: 539px;
+		margin-top: 15px;
+	}
+	.contactInput {
+		width: 488px !important;
+	}
+}
+@media only screen and (max-width: 916px) {
+	.addressWrapper {
+		width: 262px !important;
+		margin-left: 25px;
+	}
+	.contactWrapper {
+		width: 540px !important;
+		height: 539px;
+		margin-top: 15px;
+	}
+}
+@media only screen and (max-width: 820px) {
+	.newPoTitle {
+		margin-left: 31px !important;
+	}
+	.addressWrapper {
+		width: 252px !important;
+		margin-left: 15px;
+	}
+	.contactWrapper {
+		width: 502px !important;
+		height: 539px;
+		margin-top: 15px;
+	}
+	.contactInput {
+		width: 434px !important;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.addressWrapper {
+		width: 240px !important;
+	}
+	.newsLetter {
+		justify-content: center;
+		margin-left: 40px;
+	}
+	.social-media {
+		margin-bottom: 0;
+	}
+	.rightArrow {
+		position: relative !important;
+		left: -45px !important;
+		margin-top: 8px !important;
+	}
+	.rightArrowSign {
+		position: relative !important;
+		left: -69px !important;
+
+		margin-top: 11px !important;
+	}
+	.newsLetter input[type='text'] {
+		margin: 0px !important;
+	}
+	.newsletter_small {
+		justify-content: center;
+	}
+	.logoColumn {
+		justify-content: center;
+		text-align: center;
+	}
+	.footerPara1 {
+		max-width: 100% !important;
+	}
+	.newsCaption {
+		width: 100% !important;
+	}
+}
+@media only screen and (max-width: 720px) {
+	.newPoTitle {
+		margin-left: 0px !important;
+		text-align: center !important;
+	}
+	.addressWrapper {
+		width: 510px !important;
+		margin-left: 115px;
+	}
+}
+@media only screen and (max-width: 668px) {
+	.newPoTitle {
+		margin-left: 0px !important;
+		text-align: center !important;
+	}
+
+	.addressWrapper {
+		width: 540px !important;
+		margin-left: 65px;
+	}
+	.contactWrapper {
+		width: 540px !important;
+		height: 539px;
+		margin-top: 15px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.rightSide .searchBtn {
+		width: 85vw !important;
+	}
+	.loginSignUpContainer {
+		display: flex !important;
+		margin-top: 20px;
+	}
+	.searchIcon {
+		left: -11% !important;
+	}
+}
+
+/*header section*/
+
+@media only screen and (max-width: 600px) {
+	.bannerMargin {
+		margin-top: 40px !important;
+	}
+	.headerText {
+		font-size: 50px;
+		width: auto;
+	}
+	.headerPara {
+		font-size: 14px;
+		width: 100%;
+	}
+}
+
+/*clients*/
+@media only screen and (max-width: 600px) {
+	.partnersCustom {
+		text-align: center;
+	}
+	.counterCard {
+		margin-bottom: 30px;
+	}
+}
+/*counterSection */
+
+@media only screen and (max-width: 600px) {
+	.counterCard {
+		margin-bottom: 30px;
+	}
+	.workingTitle {
+		text-align: center;
+	}
+}
+/*slider section*/
+@media only screen and (max-width: 600px) {
+	.sliderBG {
+		width: auto;
+		flex-direction: column;
+		height: auto;
+		align-items: center;
+	}
+	.sliderImg {
+		margin: 7px;
+	}
+	.slick-next,
+	.slick-prev {
+		top: 25%;
+	}
+	.slick-next {
+		right: 0%;
+	}
+	.slick-prev {
+		left: 0%;
+	}
+}
+
+/*working section*/
+@media only screen and (max-width: 600px) {
+	.workingTypeContainer {
+		margin: 10px;
+	}
+	.customWorkingMargin {
+		margin: 40px auto;
+	}
+	.solidWorkingType {
+		margin: 40px auto !important;
+	}
+	.workingTitle {
+		text-align: center;
+	}
+	.workingTypeTitle {
+		font-size: 22px;
+	}
+	.customWorkPosition {
+		text-align: center;
+		position: relative;
+		bottom: 0;
+	}
+	.customWorkPosition2 {
+		text-align: center;
+		position: relative;
+		bottom: 0;
+	}
+}
+
+/*root*/
+@media only screen and (max-width: 600px) {
+	.rootCard {
+		max-width: 100% !important;
+	}
+	.createRoot {
+		text-align: center;
+		margin-top: 40px;
+	}
+}
+
+/*my po box card*/
+
+@media only screen and (max-width: 600px) {
+	.poBoxCard {
+		height: auto;
+	}
+	.cardBoxBody {
+		margin-top: 25px;
+		flex-direction: column;
+	}
+	.CardDetails .d-flex {
+		flex-direction: column;
+	}
+}
+
+/*myPo section*/
+@media only screen and (max-width: 600px) {
+	.customMyPoTitle {
+		font-size: 35px;
+		line-height: normal;
+	}
+
+	.customMyPoTitle1 {
+		font-size: 35px;
+		line-height: normal;
+		margin: 20px;
+	}
+}
+/*PO card*/
+
+@media only screen and (max-width: 600px) {
+	.viewAll {
+		margin: 18px;
+	}
+	.recentPo {
+		font-size: 35px;
+		margin: 5px;
+	}
+}
+/*create new po */
+@media only screen and (max-width: 600px) {
+	.newPoWrapper {
+		width: 100% !important;
+	}
+	.newPoWrapper .newOptionInput {
+		width: 300px !important;
+	}
+	.newPoWrapper .attachDivideBox1 {
+		width: 300px !important;
+	}
+	.newPoWrapper .attachDivideBox2 {
+		margin: 10px 60px 10px 30px !important;
+	}
+}
+/*item card */
+
+@media only screen and (max-width: 600px) {
+	.itemCard {
+		width: 100% !important;
+		height: auto !important;
+	}
+	.newPoForm .d-flex {
+		flex-direction: column !important;
+	}
+	.newPoForm .newPoInput {
+		width: 300px !important;
+	}
+	.newPoForm .poDivideBox1 {
+		width: 300px !important;
+	}
+	.newPoForm .newPaymentInput {
+		width: 300px;
+	}
+	.newPoForm .poDividedBox2 {
+		margin: 10px 60px 10px 30px;
+	}
+	.newPoForm .newPoTextArea {
+		width: 300px;
+	}
+	.newPoForm {
+		margin-left: 35px;
+	}
+}
+/*contact page*/
+@media only screen and (max-width: 600px) {
+	.contactInput {
+		width: 318px;
+	}
+	.contactText {
+		width: 318px;
+	}
+	.contactWrapper {
+		width: 100%;
+		height: 500px;
+	}
+	.BtnRight {
+		text-align: center;
+		margin: 0;
+	}
+	.completeBtn {
+		margin: 0;
+	}
+}
+
+/*send Invitaion*/
+
+@media only screen and (max-width: 600px) {
+	/* .userDiv {
+    flex-direction: column;
+  } */
+	.sendInviteCard .poDivideBox1 {
+		width: 318px;
+		margin-bottom: 11px !important;
+		margin-top: 0px;
+	}
+
+	.sendInviteBox2 {
+		margin-left: 24px;
+	}
+	.inviteCustomMargin {
+		margin-left: 24px;
+	}
+	.peopleTitle {
+		text-align: center;
+	}
+	.companyInfoWrapper {
+		height: auto !important;
+		width: 100%;
+	}
+	.companyInfoWrapper .loginForm .d-flex {
+		flex-direction: column;
+	}
+
+	.companyInfoWrapper .loginForm {
+		margin: 10px 60px 10px 35px !important;
+	}
+	/* .companyInfoWrapper .loginForm .compInfoTextBox {
+    width: 300px !important;
+  } */
+	.sendInviteCard {
+		height: 390px !important;
+	}
+	.totalContainer {
+		text-align: center;
+		margin-top: 20px;
+	}
+	.declineExpiredCard .completeBtn {
+		margin-bottom: 20px;
+	}
+	.companyInfoInput {
+		width: 300px;
+		margin-left: 38px;
+	}
+	.companyInfo {
+		text-align: center;
+	}
+}
+
+/*po card*/
+
+/* @media only screen and (max-width: 600px) {
+  .po-card {
+    width: 100%;
+  }
+} */
+
+/*footer*/
+
+@media only screen and (max-width: 600px) {
+	.logoColumn {
+		text-align: center;
+	}
+	.footerPara1 {
+		text-align: center;
+		margin-bottom: 0 !important;
+		max-width: 100% !important;
+	}
+	.newsCaption {
+		width: 100% !important;
+		padding: 20px;
+	}
+	.footerHeaderPara {
+		margin: 22px 0 10px 0 !important;
+	}
+	.newsLetter {
+		justify-content: center;
+		margin-left: 40px;
+	}
+	.social-media {
+		margin-bottom: 0;
+	}
+	.rightArrow {
+		position: relative !important;
+		left: -45px !important;
+		margin-top: 8px !important;
+	}
+	.rightArrowSign {
+		position: relative !important;
+		left: -69px !important;
+
+		margin-top: 11px !important;
+	}
+	.newsLetter input[type='text'] {
+		margin: 0px !important;
+	}
+	.newsletter_small {
+		justify-content: center;
+	}
+}
+
+/*congrats wrapper*/
+
+@media only screen and (max-width: 700px) {
+	.congratsWrapper {
+		width: 100% !important;
+		margin: 5px auto;
+	}
+	.congratsTitle {
+		text-align: center;
+	}
+	.resetWrapper {
+		width: 100% !important;
+	}
+	.loginForm .passInput {
+		width: 100% !important;
+		margin: 10px auto;
+	}
+	.emailLabel {
+		padding-left: 40px !important;
+	}
+	.forgetWrapper {
+		width: 100% !important;
+	}
+	.forgetSpan {
+		left: 134px !important;
+	}
+	.loginForm .loginInput {
+		width: 100% !important;
+		margin: 10px auto;
+	}
+	.wrapper {
+		width: 100% !important;
+		height: auto;
+	}
+	.forgotPass {
+		padding-bottom: 20px !important;
+	}
+	.wrapper .forgetTitle {
+		justify-content: initial;
+	}
+	.regP2Wrapper {
+		width: 90% !important;
+	}
+	.regWrapper .loginForm .d-flex {
+		flex-direction: column;
+	}
+	.regWrapper .dividedBox1 {
+		width: 100% !important;
+		margin: 10px auto;
+	}
+	.regP2Wrapper .loginForm .d-flex {
+		flex-direction: column;
+	}
+	.regP2Wrapper .dividedBox1 {
+		width: 100% !important;
+		margin: 10px auto;
+	}
+	.regWrapper {
+		margin-left: 40px;
+	}
+	.regP2Wrapper {
+		margin-left: 40px;
+	}
+	.regWrapper {
+		width: 90% !important;
+	}
+	.regWrapper .textArea {
+		width: 100% !important;
+		margin: 10px auto;
+	}
+}
+
+/*history container*/
+@media only screen and (max-width: 601px) {
+	.companyInfoWrapper .loginForm .compInfoD1P1 {
+		width: 460px !important;
+		margin: 10px 60px 10px 35px !important;
+	}
+	.companyInfoWrapper .loginForm .compInfoD2P2 {
+		width: 460px !important;
+		margin: 10px 60px 10px 35px !important;
+	}
+}
+
+@media only screen and (max-width: 549px) {
+	.companyInfoWrapper .loginForm .compInfoD1P1 {
+		width: 440px !important;
+	}
+	.companyInfoWrapper .loginForm .compInfoD2P2 {
+		width: 440px !important;
+	}
+}
+@media only screen and (max-width: 514px) {
+	.companyInfoWrapper .loginForm .compInfoD1P1 {
+		width: 365px !important;
+	}
+	.companyInfoWrapper .loginForm .compInfoD2P2 {
+		width: 365px !important;
+	}
+}
+@media only screen and (max-width: 458px) {
+	.companyInfoWrapper .loginForm .compInfoD1P1 {
+		width: 350px !important;
+	}
+	.companyInfoWrapper .loginForm .compInfoD2P2 {
+		width: 350px !important;
+	}
+}
+@media only screen and (max-width: 427px) {
+	.companyInfoWrapper .loginForm .compInfoD1P1 {
+		width: 317px !important;
+	}
+	.companyInfoWrapper .loginForm .compInfoD2P2 {
+		width: 317px !important;
+	}
+}
+@media only screen and (max-width: 395px) {
+	.companyInfoWrapper .loginForm .compInfoD1P1 {
+		width: 307px !important;
+	}
+	.companyInfoWrapper .loginForm .compInfoD2P2 {
+		width: 307px !important;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.historyContainer {
+		width: auto;
+	}
+	.singleListItemCard {
+		width: auto;
+		margin: 30px;
+	}
+	.customReviewBox {
+		width: 300px;
+	}
+	.poSubTitle2 {
+		width: 100%;
+	}
+	.poDetailsBoxCard {
+		height: auto !important;
+	}
+}
+
+@media only screen and (max-width: 540px) {
+	.addressWrapper {
+		width: 500px !important;
+		margin-left: 20px;
+	}
+	.contactWrapper {
+		width: 500px !important;
+		height: 539px;
+		margin-top: 15px;
+	}
+	.newPoTitle {
+		margin-left: 0px !important;
+		text-align: center;
+	}
+	.contactInput {
+		width: 420px !important;
+	}
+	/* .companyInfoWrapper .loginForm .compInfoTextBox {
+    width: 430px ;
+  } */
+}
+@media only screen and (max-width: 490px) {
+	.addressWrapper {
+		width: 342px !important;
+		margin-left: 15px;
+	}
+	.contactWrapper {
+		width: 340px !important;
+		height: 539px;
+		margin-top: 15px;
+	}
+	.newPoTitle {
+		margin-left: 0px !important;
+		text-align: center;
+	}
+	.contactInput {
+		width: 270px !important;
+	}
+}
+@media only screen and (max-width: 415px) {
+	.addressWrapper {
+		width: 342px !important;
+		margin-left: 40px !important;
+	}
+}
+@media only screen and (max-width: 361px) {
+	.addressWrapper {
+		width: 322px !important;
+		margin-left: 20px !important;
+	}
+}
+
+.formContactfield {
+	background: #f9f9f9;
+	border-radius: 16px;
+	padding: 30px;
+}
+
+.contactLabelTitle {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: #23262f;
+}
+
+.inputContact {
+	border-radius: 12px;
+	background-color: white;
+	border: 1px solid #e6e8ec;
+	box-sizing: border-box;
+}
+
+.inputTextArea {
+	outline: none;
+	padding: 10px;
+}
+.inputContactField {
+	border: none;
+	outline: none;
+	width: 100%;
+}
+
+.contactSubmitBtn {
+	color: white;
+	background: #009444;
+	border-radius: 24px;
+}

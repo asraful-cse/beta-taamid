@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400&display=swap");
+
+.declineExpiredCard {
+  width: 100%;
+  height: auto;
+  background: #fcfcfd;
+  border-radius: 20px;
+  border: 1px solid #e6e8ec;
+  box-sizing: border-box;
+  box-shadow: 0px 20px 32px -24px rgba(15, 15, 15, 0.12);
+  padding: 24px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 0px !important;
+ 
+}
+
+.declineText {
+  font-family: Poppins !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* black */
+
+  color: #23262f;
+}
+.crossDiv {
+  width: 80px;
+  height: 80px;
+  background: #ea4848;
+  border-radius: 50%;
+  margin: 16px auto 20px auto;
+  text-align: center;
+}
+.crossSign {
+  margin: 25px;
+}
+@media only screen and (min-width: 1400px) {
+/*.declineExpiredCard {*/
+/*  margin-left: -42px !important;*/
+/*}*/
+}

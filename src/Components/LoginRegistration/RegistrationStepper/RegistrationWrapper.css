@@ -1,0 +1,198 @@
+.stepper_position {
+  margin-top: -240px;
+}
+/* .css-ascpo7-MuiStepLabel-root {
+  flex-direction: column !important;
+}
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active {
+  color: #2b3990 !important;
+  height: 60px;
+  width: 60px;
+}
+
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed {
+  color: #2b3990 !important;
+  height: 60px;
+  width: 60px;
+}
+
+.MuiStepConnector-root
+  .MuiStepConnector-horizontal
+  .Mui-active
+  .css-j5w0w9-MuiStepConnector-root {
+  display: block;
+  border-color: #2b3990 !important;
+  border-top-style: solid;
+  border-top-width: 6px !important;
+}
+
+.Mui-active .css-z7uhs0-MuiStepConnector-line {
+  display: block;
+  border-color: #2b3990 !important;
+  border-top-style: solid;
+  border-top-width: 6px !important;
+}
+.Mui-completed .css-z7uhs0-MuiStepConnector-line {
+  display: block;
+  border-color: #2b3990 !important;
+  border-top-style: solid;
+  border-top-width: 6px !important;
+}
+.Mui-disabled .css-z7uhs0-MuiStepConnector-line {
+  display: block;
+  border-color: #e6e8ec !important;
+  border-top-style: solid;
+  border-top-width: 6px !important;
+}
+
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root {
+  width: 60px !important;
+  height: 60px !important;
+
+  color: rgba(0, 0, 0, 0.38);
+}
+.css-z7uhs0-MuiStepConnector-line {
+  display: block;
+
+  border-top-style: solid;
+  border-top-width: 6px;
+} */
+/* .css-1bw0nnu-MuiStep-root {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  width: 127px;
+  text-align: center;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+.css-vnkopk-MuiStepLabel-iconContainer {
+  padding-right: 0px !important;
+} */
+
+/* .css-m5vj9m-MuiStepper-root {
+  width: 60%;
+  margin: 20px auto;
+  justify-content: center;
+} */
+.d_hide {
+  visibility: hidden;
+}
+
+/* .stepper_text {
+  text-align: center;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #777e91;
+} */
+/* .Mui-active p {
+  color: red !important;
+} */
+/* .css-qivjh0-MuiStepLabel-label {
+  margin-top: 15px;
+} */
+
+/* .Mui-disabled .css-z7uhs0-MuiStepConnector-line {
+  margin-top: -28px;
+  width: 143%;
+  margin-left: -34px;
+} */
+/* .Mui-active .css-z7uhs0-MuiStepConnector-line {
+  margin-top: -28px;
+  width: 143%;
+  margin-left: -34px;
+} */
+/* .Mui-completed .css-z7uhs0-MuiStepConnector-line {
+  margin-top: -28px;
+  width: 143%;
+  margin-left: -34px;
+} */
+/* @media only screen and (max-width: 900px) {
+  .Mui-disabled .css-z7uhs0-MuiStepConnector-line {
+    margin-top: -28px;
+    width: 150%;
+    margin-left: -34px;
+  }
+  .Mui-active .css-z7uhs0-MuiStepConnector-line {
+    margin-top: -28px;
+    width: 150%;
+    margin-left: -34px;
+  }
+  .Mui-completed .css-z7uhs0-MuiStepConnector-line {
+    margin-top: -28px;
+    width: 150%;
+    margin-left: -34px;
+  }
+  .css-m5vj9m-MuiStepper-root {
+    width: 80%;
+    margin: 10px auto;
+    justify-content: center;
+  }
+} */
+
+/* @media only screen and (max-width: 800px) {
+    .Mui-disabled .css-z7uhs0-MuiStepConnector-line {
+      margin-top: -28px;
+      width: 144%;
+      margin-left: -34px;
+    }
+    .Mui-active .css-z7uhs0-MuiStepConnector-line {
+      margin-top: -28px;
+      width: 144%;
+      margin-left: -34px;
+    }
+    .Mui-completed .css-z7uhs0-MuiStepConnector-line {
+      margin-top: -28px;
+      width: 144%;
+      margin-left: -34px;
+    }
+    .css-m5vj9m-MuiStepper-root {
+      width: 90%;
+      margin: 10px auto;
+      justify-content: center;
+    }
+  } */
+  
+  /* @media only screen and (max-width:600px) {
+    .Mui-disabled .css-z7uhs0-MuiStepConnector-line {
+      display: none;
+    }
+    .Mui-active .css-z7uhs0-MuiStepConnector-line {
+        display: none;
+    }
+    .Mui-completed .css-z7uhs0-MuiStepConnector-line {
+        display: none;
+    }
+ 
+  } */
+  
+  css-qivjh0-MuiStepLabel-label.Mui-active{
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #2B3990 !important;
+    
+  }
+
+  .next_Btn {
+    width: 160px;
+    height: 48px;
+    background: #009444;
+    border-radius: 24px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    color: white;
+    border: none;
+  }

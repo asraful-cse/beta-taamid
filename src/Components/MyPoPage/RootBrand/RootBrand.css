@@ -1,0 +1,363 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400&display=swap");
+
+.rootCard {
+  max-width: 263px;
+  height: auto;
+  background: #fcfcfd;
+  /* Border */
+
+  border: 1px solid #e6e8ec;
+  box-sizing: border-box;
+  border-radius: 16px;
+  margin-top: 40px;
+  padding-bottom: 30px;
+}
+.profile-pic {
+  margin-top: 50px !important;
+  position: relative;
+  width: 60%;
+  margin: 0 auto;
+}
+.profile-pic .profile-action {
+  position: absolute;
+
+  background: #ffffff;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.12);
+  border-radius: 18px;
+  right: 0px;
+  bottom: 10px;
+  display: flex;
+}
+
+.profile-pic .brandLogo {
+  width: 100px;
+  height: 100px;
+  margin:0px auto;
+}
+.profile-pic .brandLogo img{
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #eee;
+}
+.profile-pic .profile-action {
+  position: absolute;
+
+  background: #ffffff;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.12);
+  border-radius: 18px;
+  right: 0px;
+  bottom: 10px;
+  padding: 2px;
+  display: flex;
+  margin: 0 auto;
+  
+}
+.profile-pic .profile-action .btn{
+  width: 30px;
+  height: 30px;
+  background: #23262F;
+  color: #fff;
+  border-radius: 15px;
+  text-align: center;
+  padding: 5px;
+}
+.profile-pic .profile-action .btn:hover{
+  background: #777E90;
+
+}
+.profile-pic .profile-action .icon{
+ fill:#fcfcfd;
+ color: #fff;
+ font-size: 14px;
+}
+
+.brandTitle {
+  /* Body 1 (Bold) */
+
+  font-family: Poppins !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+  color: #009444;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 4px;
+  text-align: center;
+}
+.brandSubTitle {
+ 
+  
+  font-family: DM Sans !important;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 16px;
+  color: #777e90;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 8px;
+  text-align: center;
+}
+
+.brandText {
+  font-family: Poppins !important;
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 12px;
+  line-height: 20px;
+  /* or 167% */
+
+  display: flex;
+  align-items: center;
+
+  /* Neutrals/4 */
+
+  color: #777e91;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 20px auto;
+  text-align: center;
+  width: 186px;
+}
+
+.MyPoList ul {
+  list-style: none;
+}
+.MyPoList ul > li {
+  font-family: DM Sans !important;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height, or 100% */
+  color: #777e90;
+  /* A */
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+  margin: 10px 31px;
+  position: relative;
+  left: -30px;
+}
+
+.MyPoList .list-group-item.active {
+  color: #009444;
+}
+
+.createBtn {
+  width: 195px;
+  height: 50px;
+  margin-left: -10px;
+  background: #009444;
+  border-radius: 24px;
+  color: white;
+}
+.createBtn a {
+  text-decoration: none;
+  font-family: Poppins !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+.text-link {
+  color: inherit;
+  text-decoration: inherit;
+}
+.text-link:hover {
+  text-decoration: none;
+  color: #777e91;
+}
+.text-link:focus {
+  color: #009444;
+}
+.greenColored {
+  color: #009444;
+}
+
+.listImage {
+  margin-bottom: 2px;
+  margin-right: 8px;
+  filter: grayscale(20%);
+}
+.listImage:focus {
+  color: #009444;
+}
+.text-link .listImage .active {
+  filter: grayscale(0%);
+}
+
+.invitePeople {
+  margin-left: 6px;
+  height: 23px;
+}
+
+.text-link svg:hover {
+  fill: red;
+}
+.squareBox {
+  border: 1px solid #777e91;
+  border-radius: 5px;
+  height: 16.67px;
+  width: 16.67px;
+  margin-right: 10px;
+}
+.link:active > .squareBox {
+  border: 1px solid #009444;
+  border-radius: 5px;
+  height: 16.67px;
+  width: 16.67px;
+  margin-right: 10px;
+}
+
+.ratingProfile {
+  position: absolute;
+  top: 10px;
+  right: 5%;
+}
+
+.text_img_style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1200px) {
+  .createBtn {
+    width: 157px !important;
+    height: 45px !important;
+    background: #009444 !important;
+    border-radius: 24px !important;
+    color: white !important;
+    margin-left: -10px !important;
+  }
+  .text_img_style {
+    display: inline-block;
+  }
+  .invitePeople {
+    /* margin-left: -1px ; */
+    height: 24px;
+    margin-top: 4px;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .text_img_style {
+    display: inline-block;
+  }
+  .text_img_style img {
+    margin-top: 7px !important;
+  }
+}
+@media only screen and (max-width: 1064px) {
+  .createBtn {
+    width: 153px !important;
+    height: 38px;
+  }
+  .createBtn a {
+    font-weight: 500;
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 1010px) {
+  .squareBox {
+    border: 1px solid #777e91;
+    border-radius: 3px;
+    height: 13px;
+    width: 12px;
+    margin-right: 6px;
+  }
+  .text-link {
+    font-size: 13px;
+  }
+  .brandText {
+    width: 166px !important;
+  }
+  .createBtn {
+    width: 110px !important;
+    height: 38px !important;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .squareBox {
+    border: 1px solid #777e91;
+    border-radius: 3px;
+    height: 10px;
+    width: 10px;
+    margin-right: 6px;
+  }
+  .text-link {
+    font-size: 12px;
+}
+  
+  .MyPoList ul > li {
+    font-family: DM Sans !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    color: #777e90;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    margin: 10px 12px;
+    position: relative;
+    left: -30px;
+  }
+  .brandText {
+    width: 153px !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .brandText {
+    width: 90% !important;
+    font-size: 14px;
+}
+.text-link {
+  font-size: 15px;
+  line-height: 17px;
+}
+  .rootCard {
+    max-width: 100% !important;
+  }
+  .squareBox {
+    border: 1px solid #777e91;
+    border-radius: 3px;
+    height: 10px;
+    width: 10px;
+    margin-right: 5px;
+  }
+  .text_img_style img {
+    margin-top: 0px !important;
+    margin-left: 8px !important;
+    margin-bottom: -5px;
+  }
+
+  .createBtn {
+    width: 131px !important;
+    height: 40px !important;
+    margin-left: -20px !important;
+  }
+}

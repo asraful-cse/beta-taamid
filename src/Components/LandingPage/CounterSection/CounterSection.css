@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400&display=swap");
+
+
+.counterCard {
+    border: 1px solid #e7e9ec;
+    box-sizing: border-box;
+    box-shadow: 0 21px 46px -11px rgb(16 17 16 / 10%);
+    border-radius: 10px;
+    height: 206px;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: -20px;
+}
+.counterCard .card-text {
+    font-family: Poppins !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #23262F;
+}
+.counterCard .card-title {
+    font-family: DM Sans !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 0px;
+    text-align: center;
+    color: #23262F;
+    margin-bottom: 22px;
+    padding: 0px !important;
+}
+    @media only screen and (max-width: 768px) {
+        .counterCard{
+            background: rgb(238, 241, 255);
+            margin-top: 10px;
+        }
+    }

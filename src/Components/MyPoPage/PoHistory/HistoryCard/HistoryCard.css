@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400&display=swap");
+
+.table > thead {
+  vertical-align: bottom;
+  /* border: 0px solid #e3f2eb; */
+  margin: 0px auto;
+  padding: 7px 4px 5px 6px !important;
+  /* border-radius: 12px !important; */
+  box-shadow: 1px 4px 4px 4px #e3f2eb;
+}
+.historyContainer {
+  background: #fcfcfd;
+  border: 1px solid #e6e8ec;
+  /* box-shadow: 0px 20px 32px -24px rgba(15, 15, 15, 0.12); */
+  border-radius: 14px;
+  width: 96%;
+  height: 678px;
+  overflow: scroll;
+  /*margin-left: -27px !important;*/
+  padding: 0!important;
+  margin: 40px -25px;
+  
+}
+#historyChart {
+  font-family: Poppins !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #777e90;
+}
+
+#historyChart td {
+  padding: 16px;
+  margin-bottom: 0px;
+}
+
+#historyChart tr:nth-child {
+  margin-top: 20px;
+  background: #ffffff;
+
+  border-radius: 10px !important;
+}
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+  list-style: none;
+  border-style: none;
+}
+
+#historyChart th {
+  padding: 14px 14px;
+  text-align: left;
+  background-color: #e3f2eb;
+  color: #009444;
+  margin-bottom: 26px !important;
+  border-bottom: 26px solid #fcfcfd !important;
+}
+
+.historyList {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.customTr {
+  background-color: white !important;
+  height: 60px;
+  border: 14px solid #fcfcfd;
+  border-radius: 10px !important;
+}
+.customTBody tr {
+    background-color: white !important;
+    height: 60px;
+    border: 14px solid #fcfcfd;
+    box-shadow: 0px 20px 32px -24px rgb(211 204 204 / 12%) !important;
+    border-radius: 10px !important;
+}
+
+.Pending {
+  color: #ff4545;
+}
+.Accepted {
+  color: #2b3990;
+}
+.Declined {
+  color: #ea4848;
+}
+.Completed {
+  color: #2b3990;
+}
+.Cancelled {
+  color: #f2b556;
+}
+.Expired {
+  color: #2b3990;
+}
+
+/*@media only screen and (min-width: 1400px) {*/
+/*.historyContainer {*/
+/*  margin-left: -40px !important;*/
+/*}*/
+/*}*/

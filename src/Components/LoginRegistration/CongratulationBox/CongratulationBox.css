@@ -1,0 +1,52 @@
+.congratsWrapper {
+  width: 700px;
+  min-height: 354px;
+  background: #f9f9f9;
+  border-radius: 20px;
+  justify-content: center;
+  align-content: center;
+  margin: 60px auto 100px auto;
+}
+.congratsTitle {
+  font-family: DM Sans sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  /* identical to box height, or 117% */
+  letter-spacing: -0.02em;
+  /* Green */
+  color: #009444;
+  width: auto;
+  padding-top: 60px;
+  margin: 60px auto 30px auto !important;
+  text-align: center;
+}
+
+.customApprovalText {
+  font-family: Poppins sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  /* black */
+  color: #23262f;
+  margin-left: 37px;
+  margin-right: 37px;
+  margin-bottom: 40px;
+}
+.removeLinkCss {
+  text-decoration: none !important;
+  color: inherit !important;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .removeLinkCss {
+    margin-top: 0px;
+  }
+}

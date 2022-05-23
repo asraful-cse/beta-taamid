@@ -1,0 +1,177 @@
+.stampPara{
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #828B9E;
+}
+.uploadStamp{
+    background: #FFFFFF;
+    box-shadow: 0px 13px 61px rgb(169 169 169 / 37%);
+    width: 500px;
+    height: 48px;
+    text-align: center;
+    margin: 35px auto;
+
+    border: 2px dashed #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+.congratsModalCard{
+    height: auto!important;
+}
+.stampContent{
+    padding: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 13px 61px rgba(169, 169, 169, 0.366013);
+    border-radius: 26px;
+    min-width: 750px;
+    height: 390px;
+    position: relative;
+    top: -70px;
+    left: -120px;
+
+}
+
+.congratsModalContent{
+    padding: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 13px 61px rgba(169, 169, 169, 0.366013);
+    border-radius: 26px!important;
+    width: 750px!important;
+    height: auto!important;
+}
+.customModalStamp .modal-content{
+ background-color: white;
+    border-color: transparent;
+}
+.stampTitle{
+   
+    font-family:'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #2B3990;
+}
+.stampHeader{
+    justify-content: space-between;
+    display: flex;
+}
+.stampHeader .close {
+    opacity: unset;
+    height: 30px;
+    width: 30px;
+}
+
+.customModalWidth{
+    width: 690px!important;
+    margin: 0 0!important;
+}
+
+.modalDivided{
+    width:
+            337px!important;
+    margin: 0 0!important;
+}
+.modalDivided2{
+    margin-left: 20px!important;
+}
+.modalProceedMargin{
+    margin: 30px 0!important;
+}
+.modalPaymentHeight{
+    height: 500px!important;
+}
+.modalCustomPadding{
+    padding: 0!important;
+    margin: 10px!important;
+}
+
+#expire{
+    text-indent: 15px;
+}
+.solidPaymentLine{
+   border: 1px solid #E6E8EC;
+    margin: 20px;
+}
+
+.congratsModalTick{
+    text-align: center;
+    justify-content: center;
+}
+.congratsModalTitle{
+
+    font-family: Poppins sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 16px;
+    /* identical to box height, or 67% */
+
+    text-transform: capitalize;
+
+    color: #009444;
+    margin: 30px auto;
+    text-align: center;
+}
+.paymentPara{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+
+
+    /* Neutrals/2 */
+
+    color: #23262F;
+    text-align: center;
+}
+.customPaymentText{
+    font-family: Poppins sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #828B9E;
+    align-items: center;
+    margin: 30px auto;
+}
+.customIdMargin{
+    margin: 20px!important;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .stampContent{
+        min-width: auto!important;
+        height:auto!important;
+        margin-right: 10px!important;
+        position: relative;
+        top: -110px;
+        left: -7px;
+
+    }
+    .uploadStamp {
+        width: 100%!important;
+    }
+    .customModalWidth{
+        width: 100%!important;
+    }
+    .modalBody .d-flex{
+        flex-direction: column;
+    }
+    .modalDivided2{
+        margin-left: 0!important;
+    }
+
+}

@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400&display=swap");
+
+.singleItemBoxName2 {
+  width: 200px;
+  height: 48px;
+  background: #f2f4f9;
+  border-radius: 30px;
+
+  border: 1px solid #e6e8ec;
+  box-sizing: border-box;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height */
+
+  /* ash */
+
+  color: #777e91;
+  text-align: center;
+  margin: 4px 10px 20px 0;
+  padding: 10px 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.Po_sub_title2 {
+  height: auto;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  color: #828b9e;
+  margin-bottom: 30px !important;
+  padding-right: 10px;
+}
+.poSubTitle2 {
+  width: 720px;
+  height: auto;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  color: #828b9e;
+  margin-bottom: 30px !important;
+  padding-right: 10px;
+}
+.poDetailsBoxCard {
+  width: 100%;
+  height: auto;
+  background: #fcfcfd;
+  /* Border */
+
+  border-radius: 20px;
+  border: 1px solid #e6e8ec;
+  box-sizing: border-box;
+  box-shadow: 0px 20px 32px -24px rgba(15, 15, 15, 0.12);
+  padding: 30px;
+  margin: 40px auto 30px auto;
+}
+.poDetailsTitle {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height, or 120% */
+
+  letter-spacing: -0.01em;
+
+  color: #2b3990 !important;
+  text-align: left;
+  padding-bottom: 22px;
+}
+
+.customRadius {
+  border-radius: 20px;
+}
+
+.customRoundIcon {
+  background: #ffffff;
+  /* Stock */
+
+  border: 1px solid #e6e8ec;
+  box-sizing: border-box;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+  padding: 6px;
+  cursor: pointer;
+}
+.customRoundIcon1 {
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.image-upload > input {
+  display: none;
+}
+.custDividerMargin {
+  margin-right: 13px;
+}
+.poCardPart2 {
+  margin-top: 23px;
+}
+.poDetailsItem {
+  margin-right: 30px;
+  margin-bottom: 24px;
+}
+.cardDetailsBox {
+  margin-top: 30px;
+}
+
+.uploadedImageLabel {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  color: #009444;
+  width: auto;
+  margin-left: 8px;
+}
+.sPFile img {
+  margin-top: -6px;
+}
+
+.verticalLine1 {
+  border-right: 1px solid #e6e8ec;
+}
+.before_verticalLine {
+  padding-left: 32px;
+}
+.horizontalLine {
+  border-bottom: 1px solid #e6e8ec;
+}
+
+@media only screen and (max-width: 1400px) {
+  .singleItemBoxName_2 {
+    width: 178px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .singleItemBoxName_2 {
+    width: 140px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .poDetailsTitle_2 {
+    line-height: 22px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .singleItemBoxName_2 {
+    width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .poDetailsTitle_2 {
+    line-height: 17px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .singleItemBoxName_2 {
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    justify-content: left;
+    align-items: flex-start;
+    display: -webkit-box;
+  }
+  .verticalLine_2 {
+    border: none;
+  }
+  .poDetailsTitle_2 {
+    line-height: 16px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .poDetailsTitle_2 {
+    font-size: 25px;
+    line-height: 26px;
+  }
+  .customRoundIcon_2 {
+    margin-left: 12px;
+  }
+}

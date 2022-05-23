@@ -1,0 +1,51 @@
+.reviewAs{
+    width: 100%;
+    height: auto;
+    background: #FCFCFD;
+    /* Border */
+
+    border: 1px solid #E6E8EC;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin: 40px auto;
+    justify-content: space-between;
+}
+
+.reviewAsBoxWrapper{
+    width: 100%;
+    height: auto;
+    background: #FCFCFD;
+    /* Border */
+    box-sizing: border-box;
+    box-shadow: 0px 20px 32px -24px rgba(15, 15, 15, 0.12);
+    padding: 30px;
+}
+.roundedIcon{
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    margin: auto 5px;
+}
+.roundedIcon1{
+    border-radius: 50%;
+    border: 1px solid  #E6E8EC;
+    box-sizing: border-box;
+    /* ds 1 */
+
+    box-shadow: 0px 20px 32px -24px rgba(15, 15, 15, 0.12);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin: auto;
+}
+.mailPrintIcon{
+    padding: 13px;
+    cursor: pointer;
+
+}
+.roundedIcon2{
+ margin-right: 20px;
+}
+.roundedIcon3{
+    margin-right: 30px;
+}

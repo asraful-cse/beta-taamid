@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400&display=swap");
+
+
+.lastChatWrapper{
+    max-width: 263px;
+    min-height: 200px;
+
+    background: #FCFCFD;
+    border: 1px solid #E6E8EC;
+    box-sizing: border-box;
+    /* Drop Shadow */
+
+    box-shadow: 0px 40px 32px -24px rgba(15, 15, 15, 0.12);
+    border-radius: 16px;
+}
+.lastChatTitle{
+    font-family: DM Sans !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+    /* Blue */
+    color: #2B3990;
+    text-align: left;
+    padding: 37px 0 12px 30px;
+}
+.lastChatBox{
+    display: flex;
+    width: auto;
+    height: 70px;
+    background: #E3F2EB;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px 20px;
+}
+.profileIcon{
+    width: 34px;
+    height: 34px;
+    margin: 17px 10px;
+    border-radius: 50%;
+}
+.profileName{
+    font-family: Poppins !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+
+    /* black */
+
+    color: #23262F;
+    text-align: initial;
+    margin-top: 12px;
+
+}
+.chatMain{
+    display: block;
+    margin: 16px 0;
+}
+.chatText{
+    font-family: Poppins !important;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+
+
+    color: #777E90;
+}
+
+@media only screen and (max-width: 768px) {
+    
+.lastChatWrapper{
+    margin-top: 37px;
+    max-width: 100%;
+    margin-top: 40px;
+    min-height: 200px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+    .lastChatWrapper {
+        max-width: 100%;
+        margin-top: 40px;
+        min-height: 200px;
+    }
+}

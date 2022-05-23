@@ -1,0 +1,70 @@
+.arrow-up {
+	width: 0;
+	height: 0;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+
+	border-bottom: 8px solid rgb(219, 213, 213);
+}
+
+.notification-area {
+	padding: 15px 10px;
+	background: rgb(255, 255, 255);
+	cursor: auto;
+	overflow-y: scroll;
+	scrollbar-width: none;
+	-ms-overflow-style: none;
+}
+
+.notification-area::-webkit-scrollbar {
+	width: 0;
+	height: 0;
+}
+
+.notification-container {
+	margin-left: -125%;
+}
+
+.notification-text {
+	color: #2b3990;
+}
+
+.notification-item {
+	cursor: pointer;
+}
+
+.notification-item:hover {
+	background: #f4f5f6;
+}
+
+.notification-content {
+	padding: 0px 5px;
+}
+
+.notification-content--text span {
+	font-size: 12px !important;
+}
+
+.notification-content--time span {
+	font-size: 10px !important;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

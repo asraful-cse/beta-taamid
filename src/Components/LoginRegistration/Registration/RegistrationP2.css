@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400&display=swap");
+
+.regP2Wrapper{
+    width: 700px;
+    height: auto;
+    background: #F9F9F9;
+    border-radius: 20px;
+    justify-content: center;
+    align-content: center;
+    margin: 60px auto 100px auto;
+}
+.backButton{
+    width: 160px;
+    height: 48px;
+    background:  #F9F9F9;
+    border-radius: 24px;
+    margin: 20px;
+    justify-content: center;
+    color: #009444;
+    border: 1px solid #009444;
+}
+.backNextBtn{
+     text-align: center;
+    justify-content: center;
+}
+
+input#UName{
+    background-image: url("../../../images/registration/person.png");
+    background-size: 20px 20px;
+    object-fit: contain;
+    background-repeat: no-repeat;
+  
+    padding-left: 47px;
+  
+    border: 1.5px solid #777e91;
+    background-position: 20px;
+}
+select#name{
+    background-image: url("../../../images/registration/person.png");
+    background-size: 20px 20px;
+    object-fit: contain;
+    background-repeat: no-repeat;
+
+    padding-left: 30px;
+
+    border: 1.5px solid #777e91;
+    background-position: 20px;
+    font-family: Poppins !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    /* ash */
+
+    color: #777E91;
+}
+input#IDNum{
+    background-image: url("../../../images/registration/hash.png");
+    background-size: 20px 20px;
+    object-fit: contain;
+    background-repeat: no-repeat;
+  
+    padding-left: 47px;
+  
+    border: 1.5px solid #777e91;
+    background-position: 20px;
+}
+input#Nationality{
+    background-image: url("../../../images/registration/Flag.png");
+    background-size: 20px 20px;
+    object-fit: contain;
+    background-repeat: no-repeat;
+  
+    padding-left: 47px;
+  
+    border: 1.5px solid #777e91;
+    background-position: 20px;
+}
+
+input#phone {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHHSURBVHgBrZTRUcJAEIZ3I4NPMnQgdoAdSAVCBWoFJC+AD4QDfQi8JFRgqECtADrQDogd4JuiZN29EObMIEMcduZyl8vNd/9/mz2AAweaL7btl4slq4lEZfyisec5EeSMDbDT8StUxCkPK9wW0nBJtbxQKwMDtOiM2zkPyzz3KKpzA6kItihjUM1TTiQNY2rwXLVY0t9yAlkNdxqUfvDunRkfyAwBryBHWOs+EoWmPTkG3ulCoJAjNHBpQSC9ae+7oJMDtKJnyBEaGChnQUATttfUyhLgK0im8X+WRaVWl2Z2vcmYLddv3fHe0A1QAGlmj0+wJ3OjgaPkDGOgsNX198o2Zic6rq8IsMdNjQbNvq24emKc8sIqJylcEU2OEC9FOa8JZc1OoETb9TlJ2EyhxkZivQJSSZJ9gjqPI7OirG3A4cCxKZYkkWq5Y23fY/vy4/N845Oradi3G5QckZz7NE3mVoVZpawkGN7ZzrY1HcVlG+MLk554kxtrF1CUsso+L7bbbjBPVfyKD/0sw4re/7Rshlg1rM3b3eAhBRuXSoSFpDgQ9gyxFsegjNqOILkDFumlkguYAV9zBZ3yRfzGHkPzUjl4/ACLx9sCo1RbVgAAAABJRU5ErkJggg==);
+    background-size: 18px 20px;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    padding-left: 47px;
+    border: 1.5px solid #777e91;
+    background-position: 20px;
+}
+
+input#Pemail{
+    background-image: url("../../../images/registration/Email.png");
+    background-size: 20px 20px;
+    object-fit: contain;
+    background-repeat: no-repeat;
+  
+    padding-left: 47px;
+  
+    border: 1.5px solid #777e91;
+    background-position: 20px;
+}

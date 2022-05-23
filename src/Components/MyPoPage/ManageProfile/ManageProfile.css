@@ -1,0 +1,17 @@
+.dd{
+    /* width: 100%; */
+    outline: none;
+    display: flex;
+    align-items: center;
+    margin-top: 6px !important;
+    /* background-image: url('../../../images//myPo/Call.png'); */
+}
+.dd:focus{
+    outline: none;
+    border: none;
+    /* width: 100%; */
+    box-shadow: none;
+
+
+}
+

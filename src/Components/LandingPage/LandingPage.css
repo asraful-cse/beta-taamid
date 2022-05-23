@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400&display=swap");
+
+hr.solid {
+  border-top: 2px solid #e6e8ec;
+  margin: 20px 0 0 0 !important;
+}
+.custom-margin {
+  max-width: 1170px;
+  margin: auto;
+}
+.customPartnerMargin {
+  margin-top: 60px;
+  /* margin-left: 117px; */
+}
+.customCounterMargin {
+  margin-top: 109px;
+}
+.customClientMargin{
+  margin-top: 70px;
+}
+.customPOMargin {
+  margin-top: 112px;
+  margin-bottom: 100px !important;
+}
+.customWorkingMargin {
+  margin-top: 110px;
+}
+
+@media only screen and (min-width: 1495px) and(max-width: 2000px) {
+  .customPartnerMargin {
+    margin-left: 174px !important;
+  }
+}
+@media only screen and (max-width: 1180px) {
+  .customPartnerMargin {
+    margin-left: 9px;
+  }
+}

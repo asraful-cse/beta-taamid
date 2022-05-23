@@ -1,0 +1,342 @@
+.submitPoDetails{
+    display: flex;
+    text-align: right;
+    justify-content: right;
+}
+.offerText{
+    text-align: center;
+    margin-top: 45px;
+    margin-right: 10px;
+
+}
+.supplierPoDetailsCard{
+    height: auto;
+    justify-content: center;
+    align-content: center;
+    background: #FFFFFF;
+    border: 1px solid #E6E8EC;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.customBorderGreen{
+    border: 1px solid rgba(0, 148, 68, 0.5);
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.supplierPoDetailsCustMargin{
+    margin: 30px 0px!important;
+}
+
+.eachNameBox{
+    /* Border */
+    border: 1px solid #E6E8EC;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 379px;
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+.eachNameBoxWidth{
+    width: 100%;
+}
+.eachNameBox1{
+    width: 100%;
+
+}
+.nameTitleDetail{
+    background: #E6E8EC;
+    /* Border */
+    border: 1px solid #E6E8EC;
+    box-sizing: border-box;
+    border-radius: 10px 0px 0px 10px;
+    color: #828B9E;
+    text-align: center;
+    width: 156px!important;
+    height: 70px;
+    padding: 21px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+}
+.listItemTitle{
+    font-family: Poppins sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+
+    /* black */
+
+    color: #23262F;
+    margin-bottom: 30px;
+}
+.eachBoxMarginLeft{
+    margin-left: 10px;
+}
+.nameDesc{
+    /* black */
+    color: #23262F;
+    height: 70px;
+    padding: 21px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+}
+.inputFile {
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+    text-align: center;
+
+    width: 535px!important;
+    height: 70px;
+}
+.inputFile + label {
+    width: 100%;
+    font-size:16px;
+    /* 20px */
+    font-weight: 400;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0.625rem 1.25rem;
+    background: #FFFFFF;
+    /* pagaraph */
+
+    border: 1px dashed #828B9E;
+    box-sizing: border-box;
+    border-radius: 10px;
+    /* 10px 20px */
+    text-align: center;
+    height: 70px;
+}
+.singleInputFile label img{
+    height: 20px;
+    width: 20px;
+    object-fit: contain;
+}
+
+.inputFile:focus + label,
+.inputFile.has-focus + label {
+    background: #FFFFFF;
+    border: 1px dashed #828B9E;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.inputFile + label * {
+    /* pointer-events: none; */
+    /* in case of FastClick lib use */
+}
+
+.inputFile + label svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    fill: currentColor;
+    margin-top: -0.25em;
+    /* 4px */
+    margin-right: 0.25em;
+    /* 4px */
+}
+
+/* style 1 */
+
+.inputFile-1 + label {
+    color: black;
+    background: #FFFFFF;
+    /* pagaraph */
+
+    border: 1px dashed #828B9E;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 535px;
+}
+
+.inputFile-1:focus + label,
+.inputFile-1.has-focus + label,
+.inputFile-1 + label:hover {
+    background-color:white;
+    border-radius: 12px;
+}
+.singleInputFile p {
+    margin-left: 3px;
+    margin-bottom: 10px;
+    font-family: Poppins !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.styledCheckbox {
+    position: absolute;
+    opacity: 0;
+
+}
+.styledCheckbox + label {
+    position: relative;
+    cursor: pointer;
+    padding: 0;
+
+}
+
+
+.styledCheckbox + label:before {
+    content: '';
+    margin-right: 23px;
+    display: inline-block;
+    vertical-align: text-top;
+    width: 18px;
+    height: 18px;
+    background: white;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+
+.styledCheckbox:checked + label:before {
+    background: #009444;
+    border-radius: 5px;
+    margin-top: -1px;
+}
+.checkBoxPosition{
+    /* margin-top: 115px!important; */
+    margin-left: 23px;
+    
+}
+
+
+
+.styledCheckbox:checked + label:after {
+    content: '';
+    position: absolute;
+    left: 3px;
+    top: 9px;
+    width: 2px;
+    height: 2px;
+    box-shadow:
+            2px 0 0 white,
+            4px 0 0 white,
+            4px -2px 0 white,
+            4px -4px 0 white,
+            4px -6px 0 white,
+            4px -8px 0 white;
+    transform: rotate(45deg);
+}
+div .styledCheckbox + label:after{
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 148, 68, 0.5);
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-left: 0px!important;
+}
+
+
+/*input file*/
+
+.singleInputFile {
+    position: relative;
+    background: #f9f9f9;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+.inputBoxBorder{
+    border: 1px dashed #828B9E!important;
+    text-align: center!important;
+}
+.crossFile{
+    position: absolute;
+    top: 24px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.filePositioning{
+    text-align: center;
+}
+.inputCustomMargin{
+    margin-left: 10px;
+    height: 70px;
+    max-width: 535px;
+}
+
+.DetailsCardTitle{
+    font-family: Poppins !important;
+    color: #009444;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 8px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 4px;
+}
+
+
+.input_field{
+    border-radius: 0 12px 12px 0;
+}
+
+.listItme_input{
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border: 0;
+    padding-left: 10px;
+
+}
+
+
+
+/*responsive*/
+@media only screen and (max-width: 600px) {
+    .eachNameBox{
+        width: 100% !important;
+        height: auto;
+
+    }
+    .eachNameBox1{
+        width: 100% !important;
+        height: auto;
+    }
+    .nameTitleDetail{
+        width: 100% !important;
+        height: auto;
+    }
+    .inputFile-1 + label{
+        width: 100% !important;
+        height: auto;
+    }
+    .nameDesc{
+        height: auto;
+        text-align: center;
+    }
+    .inputFile {
+        width: 100% !important;
+        height: auto;
+    }
+    .supplierBoxDiv .d-flex{
+        flex-direction: column;
+    }
+    .supplierBoxDiv .eachBoxMarginLeft {
+        margin-left: 0px!important;
+    }
+    .inputCustomMargin{
+        margin-left: 0px!important;
+        height: 70px;
+        margin-bottom: 10px;
+        min-width: 100%;
+    }
+}
+

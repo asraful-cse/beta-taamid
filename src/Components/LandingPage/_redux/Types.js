@@ -1,0 +1,6 @@
+export const GET_PARTNER_LIST="GET_PARTNER_LIST";
+export const IS_PAGE_LOAD = "IS_PAGE_LOAD";
+export const GET_PARTNER_COUNTS = "GET_PARTNER_COUNTS";
+export const GET_SLIDER_DATA = "GET_SLIDER_DATA";
+export const GET_WORKING_LIST = "GET_WORKING_LIST";
+export const GET_BANNER = "GET_BANNER";

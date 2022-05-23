@@ -1,0 +1,13 @@
+.cardMargin {
+    margin-top: 34px;
+  }
+@media only screen and (max-width: 768px) {
+  .cardMargin {
+    margin-left: -12px;
+   
+      /* justify-content: center;
+      align-items: center;
+      display: grid; */
+  
+  }
+}

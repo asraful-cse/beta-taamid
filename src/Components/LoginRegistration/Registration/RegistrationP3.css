@@ -1,0 +1,215 @@
+.dividedBox1P3 {
+  /* Stock */
+  border: 2px dashed #e0e0e0 !important;
+}
+.styled-checkbox {
+  position: absolute;
+  opacity: 0;
+}
+.styled-checkbox + label {
+  position: relative;
+  cursor: pointer;
+  padding: 0;
+}
+
+.styled-checkbox + label:before {
+  content: "";
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: text-top;
+  width: 18px;
+  height: 18px;
+  background: white;
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+
+.styled-checkbox:checked + label:before {
+  background: #009444;
+}
+
+.styled-checkbox:checked + label:after {
+  content: "";
+  position: absolute;
+  left: 4px;
+  top: 11px;
+  background: white;
+  width: 2px;
+  height: 2px;
+  box-shadow: 2px 0 0 white, 4px 0 0 white, 4px -2px 0 white, 4px -4px 0 white,
+    4px -6px 0 white, 4px -8px 0 white;
+  transform: rotate(45deg);
+}
+
+body {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+
+  /* black */
+
+  color: #23262f;
+}
+
+.unstyled {
+  margin: 32px 62px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.centered {
+  width: 300px;
+  margin: auto;
+}
+
+.title {
+  text-align: center;
+  color: rgb(69, 113, 236);
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+input#crNumber {
+  background-image: url("https://i.ibb.co/JF24Q38/mailSign.png");
+  background-size: 16px 14px;
+  background-repeat: no-repeat;
+  text-indent: 25px;
+  /* Extra Styling */
+  border: 1.5px solid #777e91;
+  background-position: 21px;
+}
+.inputfile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+  text-align: center;
+}
+
+.inputfile + label {
+  width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;
+  overflow: hidden;
+  padding: 0.625rem 1.25rem;
+  border: 2px dashed #e0e0e0 !important;
+  text-align: center;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #23262F !important;
+  font-weight: 400;
+}
+.singleInputFile label img {
+  height: 20px;
+  width: 20px;
+  object-fit: contain;
+}
+
+.inputfile:focus + label,
+.inputfile.has-focus + label {
+  outline: 1px dotted #000;
+  outline: -webkit-focus-ring-color auto 5px;
+}
+
+.inputfile + label svg {
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
+  fill: currentColor;
+  margin-top: -0.25em;
+  /* 4px */
+  margin-right: 0.25em;
+  /* 4px */
+}
+
+/* style 1 */
+
+.inputfile-1 + label {
+  color: black;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+}
+
+.inputfile-1:focus + label,
+.inputfile-1.has-focus + label,
+.inputfile-1 + label:hover {
+  background-color: white;
+  border-radius: 12px;
+}
+.singleInputFile p {
+  margin-left: 3px;
+  margin-bottom: 10px;
+}
+.singleInputFile1 {
+  position: relative;
+  background: #ffffff;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding-top: 10px;
+}
+.crossFile1 {
+  position: absolute;
+  top: 14px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.inputBoxBorder {
+  border: 1px dashed #828b9e !important;
+  text-align: center !important;
+}
+.inputRegBorder {
+  border: 2px dashed #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+
+.inputRegMargin {
+  height: 48px;
+  min-width: auto;
+  text-align: center;
+}
+.overFlowLabel label {
+  white-space: nowrap;
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+.singleRegInputFile {
+  /* position: relative; */
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding-top: 20px;
+}
+
+
+@media only screen and (max-width:668px) {
+  
+  .singleRegInputFile{
+    width: 250px ;
+
+  }
+  
+}
+
+@media only screen and (max-width:700px) {
+  
+  .singleRegInputFile{
+    width: auto ;
+
+  }
+  
+}
